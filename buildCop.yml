@@ -1,0 +1,5 @@
+---
+smtp_server: xx
+from_address: xx
+to_address: xx
+build_cop_file_name: buildCop.txt
