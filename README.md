@@ -18,7 +18,9 @@ Download installation from http://rubyinstaller.org/downloads/
 Execution
 ==============
 Configure buildCop.yml and urls.json
+
 casperjs divs.js
+
 ruby mailBuildCop.rb
 
 
