@@ -15,7 +15,6 @@ casper.start(urls.BUILD_COPS_URL, function() {
   
   if(dayName == "Sunday" ||  dayName == "Saturday"){
       console.log("No build Cop on Saturday or Sunday");
-      this.exit();
   }
 
   console.log("Today: " + currentDay + "/" + currentMonth + "/" + currentYear);

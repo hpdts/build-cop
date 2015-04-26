@@ -1,13 +1,14 @@
 Installation Casperjs
 ==============
-npm install -g phantomjs 
-(-g GLOBAL goes to C:\Users\hpdts\AppData\Roaming\npm\node_modules and thats on the PATH)
-npm install -g casperjs
-install python, add it to path
+git clone git://github.com/n1k0/casperjs.git
+Add casperjs/bin to path
 
-casperjs sample.js
+https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.0.0-windows.zip
+Add phantom executable to bin folder mentioned before
 
-http://blog.rimthong.com/ghost-in-the-web-scraping-with-phantom-and-casper/
+Get python
+https://www.python.org/downloads/
+
 
 Installation of Ruby
 ==============
