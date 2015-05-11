@@ -15,6 +15,12 @@ f.each_line do |line|
 end
 f.close
 
+
+if $build_cop.to_s == ''
+	puts "No Build Cop from web scrapper"
+	exit
+end
+
 message = <<MESSAGE_END
 From: #$from_address
 To: #$to_address
